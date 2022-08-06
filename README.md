@@ -1,4 +1,4 @@
-## Olá eu sou o Edwin Nichollas
+## Olá eu sou o Edwin Medina
 
 - 🔭 Atualmente Trabalho fora da área de tecnologia!
 - 🌱 Aprendendo HTML,CSS e JavaScript
