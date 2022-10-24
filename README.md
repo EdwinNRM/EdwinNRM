@@ -1,7 +1,7 @@
 ## Olá eu sou o Edwin Medina
 
 - 🔭 Trabalhando como Padawan, rumo a me tornar um Dev Jedi!
-- 🌱 Aprendendo .Net e outras linguagens mais!
+- 🌱 Aprendendo o framework .Net e outras linguagens mais!
 - ⚡ Já atuei em diversos projetos de criação de ferramentas e melhoria de processos para grandes empresas
 
 <div align="center">
