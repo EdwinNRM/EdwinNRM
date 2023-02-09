@@ -33,7 +33,7 @@
   <img align="center" alt="Edwin-CSS" height="30" width="40" src="https://raw.githubusercontent.com/devicons/devicon/master/icons/git/git-original.svg">
   <img align="center" alt="Edwin-CSS" height="30" width="40" src="https://raw.githubusercontent.com/devicons/devicon/master/icons/mongodb/mongodb-original.svg">
   <img align="center" alt="Edwin-CSS" height="30" width="40" src="https://raw.githubusercontent.com/devicons/devicon/master/icons/mysql/mysql-original.svg">
-   <img align="right" alt="Edwin-pic" height="150" style="border-radius:50px;" src="https://media.discordapp.net/attachments/1073046735162720327/1073046814003052544/ME.png?width=676&height=676">
+  <img align="right" alt="Edwin-pic" height="150" style="border-radius:50px;" src="https://media.discordapp.net/attachments/1073046735162720327/1073046814003052544/ME.png?width=676&height=676">
 </div>
 
   ##
