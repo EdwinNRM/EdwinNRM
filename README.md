@@ -1,3 +1,4 @@
+![](https://raw.githubusercontent.com/EdwinNRM/EdwinNRM/main/banner.png)
 ## Hey. 👋 Nice to meet you!
 
 ```csharp
