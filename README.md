@@ -12,7 +12,7 @@
 
 - 👷 Working at Framework Digital
 - :nerd_face: Studying Software Engineering
-- :genie: Learning `.cs`, `.json`, `.js`, `.cshtml`, `.css`, `.sql`, `.git` and more!
+- :genie: Learning `.cs`, `.py`, `.js` and more!
 - ⚡ Let's get connected!
 
 
