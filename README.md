@@ -27,7 +27,14 @@
   <img align="center" alt="Edwin-CSS" height="30" width="40" src="https://raw.githubusercontent.com/devicons/devicon/master/icons/git/git-original.svg">
   <img align="center" alt="Edwin-CSS" height="30" width="40" src="https://raw.githubusercontent.com/devicons/devicon/master/icons/mongodb/mongodb-original.svg">
   <img align="center" alt="Edwin-CSS" height="30" width="40" src="https://raw.githubusercontent.com/devicons/devicon/master/icons/mysql/mysql-original.svg">
-  <img align="right" alt="Edwin-pic" height="150" style="border-radius: 50%;" src="https://cdn.discordapp.com/attachments/528746985231220737/1200287976031273070/file-mqpCeV3k3kku0T0DC1zi3jdJ.png?ex=65ea8c49&is=65d81749&hm=8d1bc01716255c821dcbe6c3b5834c044d98bd7827f02a3f5567a59e88275049&">
+  <svg width="150" height="150" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <clipPath id="rounded">
+      <rect width="100%" height="100%" rx="20"/>
+    </clipPath>
+  </defs>
+  <image xlink:href="https://cdn.discordapp.com/attachments/528746985231220737/1200287976031273070/file-mqpCeV3k3kku0T0DC1zi3jdJ.png?ex=65ea8c49&is=65d81749&hm=8d1bc01716255c821dcbe6c3b5834c044d98bd7827f02a3f5567a59e88275049&" width="100%" height="100%" clip-path="url(#rounded)" />
+</svg>
 </div>
 
   ##
