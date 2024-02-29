@@ -27,7 +27,7 @@
   <img align="center" alt="Edwin-CSS" height="30" width="40" src="https://raw.githubusercontent.com/devicons/devicon/master/icons/git/git-original.svg">
   <img align="center" alt="Edwin-CSS" height="30" width="40" src="https://raw.githubusercontent.com/devicons/devicon/master/icons/mongodb/mongodb-original.svg">
   <img align="center" alt="Edwin-CSS" height="30" width="40" src="https://raw.githubusercontent.com/devicons/devicon/master/icons/mysql/mysql-original.svg">
-  <img align="right" alt="Edwin-pic" height="150" style="border-radius:50px;" src="https://cdn.discordapp.com/attachments/528746985231220737/1200287976031273070/file-mqpCeV3k3kku0T0DC1zi3jdJ.png?ex=65ea8c49&is=65d81749&hm=8d1bc01716255c821dcbe6c3b5834c044d98bd7827f02a3f5567a59e88275049&">
+  <img align="right" alt="Edwin-pic" height="150" style="border-radius:50%;" src="https://cdn.discordapp.com/attachments/528746985231220737/1200287976031273070/file-mqpCeV3k3kku0T0DC1zi3jdJ.png?ex=65ea8c49&is=65d81749&hm=8d1bc01716255c821dcbe6c3b5834c044d98bd7827f02a3f5567a59e88275049&">
 </div>
 
   ##
