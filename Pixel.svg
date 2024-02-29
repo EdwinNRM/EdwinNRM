@@ -1,8 +1,8 @@
-<svg width="150" height="150" xmlns="http://www.w3.org/2000/svg">
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 150 150" width="150" height="150">
   <defs>
-    <clipPath id="rounded">
-      <rect width="100%" height="100%" rx="20"/>
+    <clipPath id="clip-circle">
+      <circle cx="75" cy="75" r="75"/>
     </clipPath>
   </defs>
-  <image xlink:href="https://cdn.discordapp.com/attachments/528746985231220737/1200287976031273070/file-mqpCeV3k3kku0T0DC1zi3jdJ.png?ex=65ea8c49&is=65d81749&hm=8d1bc01716255c821dcbe6c3b5834c044d98bd7827f02a3f5567a59e88275049&" width="100%" height="100%" clip-path="url(#rounded)" />
+  <image clip-path="url(#clip-circle)" width="150" height="150" xlink:href="https://cdn.discordapp.com/attachments/528746985231220737/1200287976031273070/file-mqpCeV3k3kku0T0DC1zi3jdJ.png?ex=65ea8c49&amp;is=65d81749&amp;hm=8d1bc01716255c821dcbe6c3b5834c044d98bd7827f02a3f5567a59e88275049"/>
 </svg>
