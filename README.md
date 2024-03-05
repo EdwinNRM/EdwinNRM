@@ -43,4 +43,4 @@
   <p> <img src="https://komarev.com/ghpvc/?username=EdwinNRM&label=Profile%20views&color=0e75b6&style=flat" alt="EdwinNRM"/> </p>
 </div>
 
-  ## That's all Folks!
+![Typing SVG](https://readme-typing-svg.demolab.com?font=Anta&size=26&pause=1000&color=39FF14&background=FFFFFF00&center=true&vCenter=true&random=false&width=435&lines=That's+all+Folks!)
