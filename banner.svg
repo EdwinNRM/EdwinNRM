@@ -1,56 +1,63 @@
 <svg width="900" height="220" viewBox="0 0 900 220" xmlns="http://www.w3.org/2000/svg">
 
-  <!-- Fundo minimal dark -->
-  <rect width="900" height="220" fill="#0d1117"/>
+<style>
+.bg { fill:#0d1117; }
+.neon { fill:#2ea043; }
+.term { fill:#161b22; transition: all .4s ease; }
 
-  <!-- Glow filter -->
-  <defs>
-    <filter id="softGlow">
-      <feGaussianBlur stdDeviation="2" result="blur"/>
-      <feMerge>
-        <feMergeNode in="blur"/>
-        <feMergeNode in="SourceGraphic"/>
-      </feMerge>
-    </filter>
-  </defs>
+/* HOVER GLOW PRO */
+svg:hover .term {
+  filter: drop-shadow(0 0 8px rgba(46,160,67,0.35));
+}
 
-  <!-- Linha neon lofi -->
-  <rect x="0" y="170" width="900" height="2"
-        fill="#2ea043"
-        opacity="0.6"
-        filter="url(#softGlow)">
+/* LIGHT MODE AUTO */
+@media (prefers-color-scheme: light) {
+  .bg { fill:#ffffff; }
+  .neon { fill:#1a7f37; }
+  .term { fill:#f6f8fa; }
+}
+</style>
 
-    <!-- movimento bem lento -->
-    <animate attributeName="opacity"
-             values="0.4;0.8;0.4"
-             dur="8s"
-             repeatCount="indefinite"/>
-  </rect>
+<!-- BACKGROUND -->
+<rect class="bg" width="900" height="220"/>
 
-  <!-- Bloco terminal minimal -->
-  <rect x="60" y="60" width="300" height="90" rx="8" fill="#161b22"/>
+<!-- LINHA LOFI CINEMATIC -->
+<rect y="170" width="1200" height="2" class="neon">
+  <animateTransform
+    attributeName="transform"
+    type="translate"
+    values="-200 0;0 0;-200 0"
+    dur="18s"
+    repeatCount="indefinite"/>
+  <animate attributeName="opacity"
+           values="0.3;0.8;0.3"
+           dur="6s"
+           repeatCount="indefinite"/>
+</rect>
 
-  <text x="80" y="105"
-        font-family="monospace"
-        font-size="16"
-        fill="#39FF14">
-        edwin@dev:~$
-  </text>
+<!-- TERMINAL -->
+<rect x="260" y="60" width="300" height="90" rx="12" class="term">
+  <!-- glow sync cinematic -->
+  <animate attributeName="opacity"
+           values="0.92;1;0.92"
+           dur="6s"
+           repeatCount="indefinite"/>
+</rect>
 
-  <!-- Cursor piscando (discreto) -->
-  <rect x="210" y="92" width="8" height="16" fill="#39FF14">
-    <animate attributeName="opacity"
-             values="1;0;1"
-             dur="1.4s"
-             repeatCount="indefinite"/>
-  </rect>
+<!-- TEXTO TERMINAL -->
+<text x="285" y="108"
+      font-family="monospace"
+      font-size="16"
+      class="neon">
+      edwin@dev:~$
+</text>
 
-  <!-- Marca minimal -->
-  <text x="600" y="110"
-        font-family="Segoe UI"
-        font-size="26"
-        fill="#8b949e">
-        EdwinNRM.dev
-  </text>
+<!-- CURSOR BLOCO -->
+<rect x="405" y="94" width="10" height="16" class="neon">
+  <animate attributeName="opacity"
+           values="1;0;1"
+           dur="1.4s"
+           repeatCount="indefinite"/>
+</rect>
 
 </svg>
