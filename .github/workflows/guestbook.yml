@@ -1,36 +1,37 @@
-name: Update Guestbook
+name: Guestbook
 
 on:
   issue_comment:
-    types: [created, edited]
+    types: [created, edited, deleted]
+  workflow_dispatch:
 
 permissions:
   contents: write
-  issues: read
 
 jobs:
-  update:
+  update_guestbook:
+    if: ${{ github.event.issue.title == 'Guestbook' }}
     runs-on: ubuntu-latest
 
     steps:
-      - name: Checkout repo
-        uses: actions/checkout@v4
+      - uses: actions/checkout@v3
 
-      - name: Update README Guestbook
-        uses: actions/github-script@v7
+      - name: Update guestbook from comments
+        uses: actions/github-script@v6
         with:
           script: |
+            const truncateString = (str, num) => str.length > num ? str.slice(0, num) + "..." : str;
+
             const query = `query($owner:String!, $name:String!, $issue_number:Int!) {
               repository(owner:$owner, name:$name){
                 issue(number:$issue_number) {
-                  comments(first:10,orderBy:{direction:DESC, field:UPDATED_AT}) {
+                  comments(first:5,orderBy:{direction:DESC, field:UPDATED_AT}) {
                     nodes {
                       author {
-                        avatarUrl(size: 48)
+                        avatarUrl(size: 24)
                         login
                         url
                       }
-                      url
                       bodyText
                       updatedAt
                     }
@@ -49,14 +50,13 @@ jobs:
 
             const renderComments = (comments) => {
               return comments.reduce((prev, curr) => {
-                let sanitizedText = curr.bodyText
-                  .replace(/</g, '&lt;')
-                  .replace(/>/g, '&gt;')
+                let text = curr.bodyText
                   .replace(/(\r\n|\r|\n)/g, "<br />")
-                  .replace(/\|/g, '&#124;')
-                  .replace(/\[/g, '&#91;');
+                  .replace(/\|/g, '&#124;');
 
-                return `${prev}|[<img src="${curr.author.avatarUrl}" width="48"/><br/>${curr.author.login}](${curr.author.url})|${new Date(curr.updatedAt).toLocaleString()}<br/>[Comment 🔗](${curr.url})|${sanitizedText}|\n`;
+                text = truncateString(text, 125);
+
+                return `${prev}| <a href="${curr.author.url}"><img width="24" src="${curr.author.avatarUrl}" /> ${curr.author.login}</a> |${new Date(curr.updatedAt).toLocaleString()}|${text}|\n`;
               }, "| Name | Date | Message |\n|---|---|---|\n");
             };
 
@@ -69,3 +69,10 @@ jobs:
             );
 
             fs.writeFileSync('README.md', updated, 'utf8');
+
+      - name: Push guestbook update
+        run: |
+          git config --global user.name 'Github Actions'
+          git config --global user.email '41898282+github-actions[bot]@users.noreply.github.com'
+          git commit -am ':sparkles: update guestbook' || echo "No changes"
+          git push
