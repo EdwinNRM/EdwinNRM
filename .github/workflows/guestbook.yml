@@ -10,7 +10,7 @@ permissions:
 
 jobs:
   update_guestbook:
-    if: ${{ github.event.issue.title == 'Guestbook' }}
+    if: ${{ github.event_name == 'workflow_dispatch' || github.event.issue.title == 'Guestbook' }}
     runs-on: ubuntu-latest
 
     steps:
