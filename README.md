@@ -57,7 +57,8 @@ public class ProfessionalProfile
 
 ## 📖 Guestbook
 
-([🆕🖊️ Deixe seu comentário aqui](https://github.com/EdwinNRM/EdwinNRM/issues))
+💬 Quer deixar uma mensagem?  
+👉 **[Sign my Guestbook](https://github.com/EdwinNRM/EdwinNRM/issues/4)**
 
 <!-- Guestbook -->
 | Name | Date | Message |
