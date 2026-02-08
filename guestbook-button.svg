@@ -1,0 +1,55 @@
+<svg height="40" viewBox="0 0 320 40" xmlns="http://www.w3.org/2000/svg">
+
+  <defs>
+    <!-- Neon Sync Gradient -->
+    <linearGradient id="neonSync" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#2ea043">
+        <animate attributeName="stop-color"
+                 values="#2ea043;#39FF14;#2ea043"
+                 dur="2.2s"
+                 repeatCount="indefinite"/>
+      </stop>
+      <stop offset="100%" stop-color="#39FF14">
+        <animate attributeName="stop-color"
+                 values="#39FF14;#2ea043;#39FF14"
+                 dur="2.2s"
+                 repeatCount="indefinite"/>
+      </stop>
+    </linearGradient>
+
+    <!-- Glow Filter -->
+    <filter id="neonGlow" x="-50%" y="-50%" width="200%" height="200%">
+      <feGaussianBlur stdDeviation="3" result="blur"/>
+      <feMerge>
+        <feMergeNode in="blur"/>
+        <feMergeNode in="SourceGraphic"/>
+      </feMerge>
+    </filter>
+  </defs>
+
+  <!-- Background -->
+  <rect x="0" y="0" width="320" height="40" rx="8" fill="#1b1f23"/>
+
+  <!-- Neon Sync Layer -->
+  <rect x="3" y="3" width="314" height="34" rx="6"
+        fill="url(#neonSync)"
+        filter="url(#neonGlow)">
+        
+        <!-- Breathing glow -->
+        <animate attributeName="opacity"
+                 values="0.7;1;0.7"
+                 dur="6s"
+                 repeatCount="indefinite"/>
+  </rect>
+
+  <!-- Text -->
+  <text x="160" y="25"
+        font-family="Segoe UI, Arial"
+        font-size="14"
+        fill="white"
+        text-anchor="middle"
+        font-weight="bold">
+        Sign my Guestbook
+  </text>
+
+</svg>

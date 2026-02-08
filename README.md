@@ -57,9 +57,9 @@ public class ProfessionalProfile
 
 ## Guestbook
 
-<div> 
+<div>
   <a href="https://github.com/EdwinNRM/EdwinNRM/issues/4">
-    <img src="https://img.shields.io/badge/Sign_my_Guestbook-0e75b6?style=for-the-badge&logo=github&logoColor=white" />
+    <img src="guestbook-button.svg" />
   </a>
 </div>
 
