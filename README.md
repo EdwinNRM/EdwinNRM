@@ -1,4 +1,5 @@
 ![](banner.svg)
+
 ## Hey. 👋 Nice to meet you!
 
 ```csharp
@@ -24,9 +25,8 @@ public class ProfessionalProfile
 - 💻 Open for new challenges in Full Stack Development
 - 🚀 Building scalable solutions with C#, Python, and JavaScript (Frameworks included!)
 - 🎮 Pixel art enthusiast and Gamer
-- 🤝 Let's connect!
 
-
+##  Tech Stack
 <div style="display: inline-block">
   <img align="center" alt="C#" height="40" width="40" src="https://raw.githubusercontent.com/devicons/devicon/master/icons/csharp/csharp-original.svg">
   <img align="center" alt=".NET" height="40" width="40" src="https://raw.githubusercontent.com/devicons/devicon/master/icons/dotnetcore/dotnetcore-original.svg">
@@ -42,19 +42,6 @@ public class ProfessionalProfile
 </div>
 <br><br>
 
-  ## Stay in touch!
- 
-<div> 
-  <a href="https://instagram.com/edwinnichollas" target="_blank"><img src="https://img.shields.io/badge/-Instagram-%23E4405F?style=for-the-badge&logo=instagram&logoColor=white" target="_blank"></a>
-  <a href="https://discord.com/users/the_godwin" target="_blank"><img src="https://img.shields.io/badge/Discord-7289DA?style=for-the-badge&logo=discord&logoColor=white" target="_blank"></a> 
-  <a href = "mailto:edwinmedina@gmail.com"><img src="https://img.shields.io/badge/-Gmail-%23333?style=for-the-badge&logo=gmail&logoColor=white" target="_blank"></a>
-  <a href="https://br.linkedin.com/in/edwinnrmedina" target="_blank"><img src="https://img.shields.io/badge/-LinkedIn-%230077B5?style=for-the-badge&logo=linkedin&logoColor=white" target="_blank"></a> 
-</div>
-
-<div align="left"> 
-  <p> <img src="https://komarev.com/ghpvc/?username=EdwinNRM&label=Profile%20views&color=0e75b6&style=flat" alt="EdwinNRM"/> </p>
-</div>
-
 ## Guestbook
 
 <div>
@@ -68,5 +55,20 @@ public class ProfessionalProfile
 |---|---|---|
 | <a href="https://github.com/EdwinNRM"><img width="24" src="https://avatars.githubusercontent.com/u/92762490?s=24&u=576a8dc96ccb68a993dd4df94d10b1bcf66c9100&v=4" /> EdwinNRM</a> |2/8/2026, 5:40:00 AM|Será que vai?|
 <!-- /Guestbook -->
+
+  ## Stay in touch!
+ 
+<div> 
+  <a href="https://instagram.com/edwinnichollas" target="_blank"><img src="https://img.shields.io/badge/-Instagram-%23E4405F?style=for-the-badge&logo=instagram&logoColor=white" target="_blank"></a>
+  <a href="https://discord.com/users/the_godwin" target="_blank"><img src="https://img.shields.io/badge/Discord-7289DA?style=for-the-badge&logo=discord&logoColor=white" target="_blank"></a> 
+  <a href = "mailto:edwinmedina@gmail.com"><img src="https://img.shields.io/badge/-Gmail-%23333?style=for-the-badge&logo=gmail&logoColor=white" target="_blank"></a>
+  <a href="https://br.linkedin.com/in/edwinnrmedina" target="_blank"><img src="https://img.shields.io/badge/-LinkedIn-%230077B5?style=for-the-badge&logo=linkedin&logoColor=white" target="_blank"></a> 
+</div>
+
+<div align="left"> 
+  <p> <img src="https://komarev.com/ghpvc/?username=EdwinNRM&label=Profile%20views&color=0e75b6&style=flat" alt="EdwinNRM"/> </p>
+</div>
+
+---
 
 ![Typing SVG](https://readme-typing-svg.demolab.com?font=Anta&size=26&pause=1000&color=39FF14&background=FFFFFF00&center=true&vCenter=true&random=false&width=435&lines=That's+all+Folks!)
