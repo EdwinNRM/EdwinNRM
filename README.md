@@ -53,6 +53,7 @@ public class ProfessionalProfile
 <!-- Guestbook -->
 | Name | Date | Message |
 |---|---|---|
+| <a href="https://github.com/joaosantosg"><img width="24" src="https://avatars.githubusercontent.com/u/50639616?s=24&u=d6fb5450571f253646e70962e41b076c19431589&v=4" /> joaosantosg</a> |2/8/2026, 1:21:31 PM|Você é especial demais, nunca esquece disso.|
 | <a href="https://github.com/EdwinNRM"><img width="24" src="https://avatars.githubusercontent.com/u/92762490?s=24&u=576a8dc96ccb68a993dd4df94d10b1bcf66c9100&v=4" /> EdwinNRM</a> |2/8/2026, 5:40:00 AM|Será que vai?|
 <!-- /Guestbook -->
 
