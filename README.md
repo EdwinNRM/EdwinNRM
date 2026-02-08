@@ -62,7 +62,7 @@ public class ProfessionalProfile
 <!-- Guestbook -->
 | Name | Date | Message |
 |---|---|---|
-| Loading... | ⏳ | Aguarde o primeiro comentário |
+| <a href="https://github.com/EdwinNRM"><img width="24" src="https://avatars.githubusercontent.com/u/92762490?s=24&u=576a8dc96ccb68a993dd4df94d10b1bcf66c9100&v=4" /> EdwinNRM</a> |2/8/2026, 5:40:00 AM|Será que vai?|
 <!-- /Guestbook -->
 
 ![Typing SVG](https://readme-typing-svg.demolab.com?font=Anta&size=26&pause=1000&color=39FF14&background=FFFFFF00&center=true&vCenter=true&random=false&width=435&lines=That's+all+Folks!)
