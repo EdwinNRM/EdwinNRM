@@ -1,4 +1,4 @@
-![](https://github.com/EdwinNRM/EdwinNRM/blob/main/Banner.png)
+![](https://github.com/EdwinNRM/EdwinNRM/blob/main/Banner.svg)
 ## Hey. 👋 Nice to meet you!
 
 ```csharp
