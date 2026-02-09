@@ -49,6 +49,9 @@ public class ProfessionalProfile
   <a href="https://discord.com/users/the_godwin" target="_blank"><img src="https://img.shields.io/badge/Discord-7289DA?style=for-the-badge&logo=discord&logoColor=white" target="_blank"></a> 
   <a href = "mailto:edwinmedina@gmail.com"><img src="https://img.shields.io/badge/-Gmail-%23333?style=for-the-badge&logo=gmail&logoColor=white" target="_blank"></a>
   <a href="https://br.linkedin.com/in/edwinnrmedina" target="_blank"><img src="https://img.shields.io/badge/-LinkedIn-%230077B5?style=for-the-badge&logo=linkedin&logoColor=white" target="_blank"></a> 
+  <a href="https://raw.githubusercontent.com/EdwinNRM/EdwinNRM/main/CV_Edwin_Medina.pdf">
+    <img src="https://img.shields.io/badge/📄%20Download%20CV-PDF-0e75b6?style=for-the-badge" />
+  </a>
 </div>
 
 <div align="left"> 
