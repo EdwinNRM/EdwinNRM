@@ -53,6 +53,7 @@ public class ProfessionalProfile
 <!-- Guestbook -->
 | Name | Date | Message |
 |---|---|---|
+| <a href="https://github.com/GabrielGFC"><img width="24" src="https://avatars.githubusercontent.com/u/143818850?s=24&u=5ad052ecf4c1371445716efeac69bcefb6bab997&v=4" /> GabrielGFC</a> |2/10/2026, 12:41:28 AM|Só passando pra deixar um abraço virtual e dizer que tá mandando bem demais. Continua firme que isso aqui ainda vai longe.|
 | <a href="https://github.com/Dheakne"><img width="24" src="https://avatars.githubusercontent.com/u/170985823?s=24&u=71d3283aea234ef801af7471ba9af1a148aa0c49&v=4" /> Dheakne</a> |2/10/2026, 12:20:44 AM|Maior usuário de F.E.V. que eu conheço|
 | <a href="https://github.com/WillianAsouz4"><img width="24" src="https://avatars.githubusercontent.com/u/199675044?s=24&u=fce7c782604272b00a21907a8ffc7c849f85f238&v=4" /> WillianAsouz4</a> |2/8/2026, 9:44:31 PM|oq isso faz?|
 | <a href="https://github.com/joaosantosg"><img width="24" src="https://avatars.githubusercontent.com/u/50639616?s=24&u=d6fb5450571f253646e70962e41b076c19431589&v=4" /> joaosantosg</a> |2/8/2026, 1:21:31 PM|Você é especial demais, nunca esquece disso.|
