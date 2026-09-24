@@ -1,54 +1,77 @@
-![](banner.svg)
+![Edwin Medina — Desenvolvimento Full Stack e Backend](banner.svg)
 
-## Hey. 👋 Nice to meet you!
+# Olá, sou Edwin Medina
 
-```csharp
-public class ProfessionalProfile 
-{
-    public string Name => "Edwin N. R. Medina";
-    public string Location => "Goiás, Brazil";
-    
-    public string[] Degrees => new[] { 
-        "Software Engineering", 
-        "Mechanical Engineering" 
-    };
+**Desenvolvedor Full Stack / Backend · C# / .NET · Python · APIs REST**
 
-    public List<string> Focus => new List<string> { 
-        "Full Stack Development", 
-        "System Automation", 
-        "Pixel Art" 
-    };
-}
-```
+São José do Rio Preto, SP, Brasil
 
-- 🎓 Software Engineer & Mechanical Engineer
-- 💻 Open for new challenges in Full Stack Development
-- 🚀 Building scalable solutions with C#, Python, and JavaScript (Frameworks included!)
-- 🎮 Pixel art enthusiast and Gamer
+[LinkedIn](https://www.linkedin.com/in/edwinnrmedina/) · [E-mail](mailto:edwinnrm@gmail.com) · [Currículo em PDF](CV_Edwin_Medina.pdf)
 
-##  Tech Stack
-<div style="display: inline-block">
-  <img align="center" alt="C#" height="40" width="40" src="https://raw.githubusercontent.com/devicons/devicon/master/icons/csharp/csharp-original.svg">
-  <img align="center" alt=".NET" height="40" width="40" src="https://raw.githubusercontent.com/devicons/devicon/master/icons/dotnetcore/dotnetcore-original.svg">
-  <img align="center" alt="HTML5" height="40" width="40" src="https://raw.githubusercontent.com/devicons/devicon/master/icons/html5/html5-original.svg">
-  <img align="center" alt="CSS3" height="40" width="40" src="https://raw.githubusercontent.com/devicons/devicon/master/icons/css3/css3-original.svg">
-  <img align="center" alt="JavaScript" height="40" width="40" src="https://raw.githubusercontent.com/devicons/devicon/master/icons/javascript/javascript-original.svg">
-  <img align="center" alt="Node.js" height="40" width="40" src="https://raw.githubusercontent.com/devicons/devicon/master/icons/nodejs/nodejs-original.svg">
-  <img align="center" alt="Express" height="40" width="40" src="https://raw.githubusercontent.com/devicons/devicon/master/icons/express/express-original.svg">
-  <img align="center" alt="Git" height="40" width="40" src="https://raw.githubusercontent.com/devicons/devicon/master/icons/git/git-original.svg">
-  <img align="center" alt="MongoDB" height="40" width="40" src="https://raw.githubusercontent.com/devicons/devicon/master/icons/mongodb/mongodb-original.svg">
-  <img align="center" alt="Python" height="40" width="40" src="https://raw.githubusercontent.com/devicons/devicon/master/icons/python/python-original.svg">
-  <img align="right" alt="Edwin's Pixel Art" height="150" src="pixel.svg">
-</div>
-<br><br>
+Desenvolvo e integro sistemas com foco em código legível, confiabilidade e evolução de aplicações. Minha experiência reúne engenharia de software, automação de processos e conhecimento de negócio, com atuação em todo o ciclo de desenvolvimento: dos requisitos à sustentação em produção.
 
-## Guestbook
+Atualmente, sou **Desenvolvedor Full Stack na Anbetec** e **Professor Formador na Universidade Evangélica de Goiás**, no curso de Análise e Desenvolvimento de Sistemas. Ensino desenvolvimento de APIs, integração de sistemas e testes de software.
 
-<div>
-  <a href="https://github.com/EdwinNRM/EdwinNRM/issues/4">
-    <img src="guestbook-button.svg" />
-  </a>
-</div>
+## Experiência em números
+
+- **Mais de 20.000 usuários** atendidos pelos sistemas em cujo desenvolvimento e manutenção atuei na Framework Digital.
+- **4 desenvolvedores** na equipe que liderei, com gestão de **11 projetos internos**.
+- **1 ano como Product Owner**, conectando clientes, stakeholders e desenvolvimento para organizar backlog e priorizar entregas.
+
+Minha trajetória anterior em controladoria, logística e operações também orienta a forma como construo software: entender o processo, estruturar os dados e automatizar o que gera valor.
+
+## Tecnologias e áreas de atuação
+
+| Área | Tecnologias e práticas |
+| --- | --- |
+| Backend e integração | C#, .NET, Python, FastAPI, Node.js, APIs REST |
+| Dados e automação | SQL, bancos relacionais e NoSQL, Excel/VBA, VBS, dashboards e relatórios |
+| Desenvolvimento web | JavaScript; React, TypeScript e Next.js nos projetos de portfólio |
+| Engenharia de software | Git, Docker, testes de software, análise de requisitos e manutenção de sistemas |
+| Sistemas corporativos | Integrações e dados de SAP, TOTVS Datasul e TOTVS Protheus |
+
+## Projetos em destaque
+
+Projetos pessoais que demonstram desenvolvimento de aplicações, integração de serviços e análise de dados. O código e a documentação estão disponíveis em cada repositório.
+
+| Projeto | O que demonstra | Tecnologias |
+| --- | --- | --- |
+| **[ResumeOS](https://github.com/EdwinNRM/ResumeOS)** | Editor de currículos por blocos, pré-visualização e verificações de estrutura orientadas a ATS. Integra frontend e API para exportação via impressão do navegador. | React, TypeScript, Zustand, Python, FastAPI |
+| **[Atlas Match Engine](https://github.com/EdwinNRM/atlas-match-engine)** | Serviço de agregação de vagas e classificação por compatibilidade, com critérios baseados no perfil e painel de resultados. | Python, FastAPI, HTTPX, Jinja2 |
+| **[Kleos](https://github.com/EdwinNRM/Kleos)** | Portfólio técnico com apresentação de trajetória, decisões e evidências de projetos em uma interface editorial. | Next.js, React, TypeScript, Tailwind CSS |
+| **[Atlas Agroindustrial](https://github.com/EdwinNRM/AtlasAgroindustrial)** | Case de BI financeiro: geração de dados sintéticos, modelo dimensional e oito páginas de análise de DRE, orçamento e forecast. | Python, pandas, Power BI, Power Query, DAX |
+
+### Preview: Atlas Agroindustrial
+
+[![Dashboard Management Cockpit do projeto fictício Atlas Agroindustrial, com indicadores financeiros e análise de desvios](assets/previews/atlas-agroindustrial.png)](https://github.com/EdwinNRM/AtlasAgroindustrial)
+
+*Captura real do projeto. Empresa e dados inteiramente fictícios, criados para demonstração. [Explore as oito páginas e a documentação](https://github.com/EdwinNRM/AtlasAgroindustrial#dashboard).*
+
+## Formação e comunidade
+
+- **Engenharia de Software** — UniEVANGÉLICA, 2025.
+- **Engenharia Mecânica** — Universidade Paulista, 2016.
+- **Pós-graduação em Inteligência Artificial e Machine Learning** — Universidade Pitágoras Unopar Anhanguera, 2026.
+- Atuação como **GitHub Campus Expert**, com treinamentos técnicos e apoio à comunidade acadêmica.
+- **Prêmio Schaeffler de Excelência Tecnológica — Honra ao Mérito (2025)**, ouro na Olimpíada de Programação da faculdade (2025) e 1º lugar no Hackathon de Engenharia de Software (2023).
+
+**Idiomas:** inglês avançado e francês básico.
+
+## Vamos conversar
+
+Para conversar sobre desenvolvimento de software, integrações, automação ou ensino: **[edwinnrm@gmail.com](mailto:edwinnrm@gmail.com)** ou **[LinkedIn](https://www.linkedin.com/in/edwinnrmedina/)**.
+
+<details>
+<summary>Além do código</summary>
+
+Também gosto de pixel art e jogos. No [meu blog pessoal](https://edwinnrm.github.io/Blog/), exploro uma interface inspirada na web dos anos 2000, construída com Jekyll, SCSS e JavaScript.
+
+</details>
+
+<details>
+<summary>Guestbook · mensagens da comunidade</summary>
+
+[Deixe uma mensagem](https://github.com/EdwinNRM/EdwinNRM/issues/4).
 
 <!-- Guestbook -->
 | Name | Date | Message |
@@ -60,22 +83,4 @@ public class ProfessionalProfile
 | <a href="https://github.com/Dheakne"><img width="24" src="https://avatars.githubusercontent.com/u/170985823?s=24&u=71d3283aea234ef801af7471ba9af1a148aa0c49&v=4" /> Dheakne</a> |2/10/2026, 12:20:44 AM|Maior usuário de F.E.V. que eu conheço|
 <!-- /Guestbook -->
 
-  ## Stay in touch!
- 
-<div> 
-  <a href="https://instagram.com/edwinnichollas" target="_blank"><img src="https://img.shields.io/badge/-Instagram-%23E4405F?style=for-the-badge&logo=instagram&logoColor=white" target="_blank"></a>
-  <a href="https://discord.com/users/the_godwin" target="_blank"><img src="https://img.shields.io/badge/Discord-7289DA?style=for-the-badge&logo=discord&logoColor=white" target="_blank"></a> 
-  <a href = "mailto:edwinmedina@gmail.com"><img src="https://img.shields.io/badge/-Gmail-%23333?style=for-the-badge&logo=gmail&logoColor=white" target="_blank"></a>
-  <a href="https://br.linkedin.com/in/edwinnrmedina" target="_blank"><img src="https://img.shields.io/badge/-LinkedIn-%230077B5?style=for-the-badge&logo=linkedin&logoColor=white" target="_blank"></a> 
-  <a href="https://raw.githubusercontent.com/EdwinNRM/EdwinNRM/main/CV_Edwin_Medina.pdf">
-    <img src="https://img.shields.io/badge/📄%20Download%20CV-PDF-0e75b6?style=for-the-badge" />
-  </a>
-</div>
-
-<div align="left"> 
-  <p> <img src="https://komarev.com/ghpvc/?username=EdwinNRM&label=Profile%20views&color=0e75b6&style=flat" alt="EdwinNRM"/> </p>
-</div>
-
----
-
-![Typing SVG](https://readme-typing-svg.demolab.com?font=Anta&size=26&pause=1000&color=39FF14&background=FFFFFF00&center=true&vCenter=true&random=false&width=435&lines=That's+all+Folks!)
+</details>

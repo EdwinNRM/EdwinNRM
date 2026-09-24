@@ -1,63 +1,15 @@
-<svg width="900" height="220" viewBox="0 0 900 220" xmlns="http://www.w3.org/2000/svg">
-
-<style>
-.bg { fill:#0d1117; }
-.neon { fill:#2ea043; }
-.term { fill:#161b22; transition: all .4s ease; }
-
-/* HOVER GLOW PRO */
-svg:hover .term {
-  filter: drop-shadow(0 0 8px rgba(46,160,67,0.35));
-}
-
-/* LIGHT MODE AUTO */
-@media (prefers-color-scheme: light) {
-  .bg { fill:#ffffff; }
-  .neon { fill:#1a7f37; }
-  .term { fill:#f6f8fa; }
-}
-</style>
-
-<!-- BACKGROUND -->
-<rect class="bg" width="900" height="220"/>
-
-<!-- LINHA LOFI CINEMATIC -->
-<rect y="170" width="1200" height="2" class="neon">
-  <animateTransform
-    attributeName="transform"
-    type="translate"
-    values="-200 0;0 0;-200 0"
-    dur="18s"
-    repeatCount="indefinite"/>
-  <animate attributeName="opacity"
-           values="0.3;0.8;0.3"
-           dur="6s"
-           repeatCount="indefinite"/>
-</rect>
-
-<!-- TERMINAL -->
-<rect x="260" y="60" width="300" height="90" rx="12" class="term">
-  <!-- glow sync cinematic -->
-  <animate attributeName="opacity"
-           values="0.92;1;0.92"
-           dur="6s"
-           repeatCount="indefinite"/>
-</rect>
-
-<!-- TEXTO TERMINAL -->
-<text x="285" y="108"
-      font-family="monospace"
-      font-size="16"
-      class="neon">
-      edwin@dev:~$
-</text>
-
-<!-- CURSOR BLOCO -->
-<rect x="405" y="94" width="10" height="16" class="neon">
-  <animate attributeName="opacity"
-           values="1;0;1"
-           dur="1.4s"
-           repeatCount="indefinite"/>
-</rect>
-
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="280" viewBox="0 0 1200 280" role="img" aria-labelledby="title desc">
+  <title id="title">Edwin Medina — Full Stack / Backend Developer</title>
+  <desc id="desc">Engenharia de software, integração de sistemas e automação. C# / .NET, Python, APIs REST e SQL.</desc>
+  <rect width="1200" height="280" rx="18" fill="#101b2b"/>
+  <path d="M910 0v280M1000 0v280M1090 0v280M1180 0v280M860 50h340M860 140h340M860 230h340" stroke="#23354a" stroke-width="1"/>
+  <path d="M920 195h65v-80h100V65h95" fill="none" stroke="#67dbc4" stroke-width="3"/>
+  <g fill="#67dbc4"><circle cx="920" cy="195" r="6"/><circle cx="985" cy="115" r="6"/><circle cx="1085" cy="65" r="6"/></g>
+  <rect x="48" y="45" width="40" height="4" rx="2" fill="#67dbc4"/>
+  <g font-family="Segoe UI, Arial, sans-serif">
+    <text x="48" y="108" font-size="44" font-weight="700" fill="#f5f8fc">Edwin Medina</text>
+    <text x="48" y="151" font-size="25" fill="#c8d6e6">Full Stack / Backend Developer</text>
+    <text x="48" y="195" font-size="19" fill="#9aadc4">Engenharia de software, integração de sistemas e automação.</text>
+    <text x="48" y="239" font-size="17" font-weight="600" fill="#67dbc4">C# / .NET   ·   Python   ·   APIs REST   ·   SQL</text>
+  </g>
 </svg>
