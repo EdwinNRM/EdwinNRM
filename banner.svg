@@ -1,15 +1,24 @@
 <svg xmlns="http://www.w3.org/2000/svg" width="1200" height="280" viewBox="0 0 1200 280" role="img" aria-labelledby="title desc">
-  <title id="title">Edwin Medina — Full Stack / Backend Developer</title>
-  <desc id="desc">Engenharia de software, integração de sistemas e automação. C# / .NET, Python, APIs REST e SQL.</desc>
-  <rect width="1200" height="280" rx="18" fill="#101b2b"/>
-  <path d="M910 0v280M1000 0v280M1090 0v280M1180 0v280M860 50h340M860 140h340M860 230h340" stroke="#23354a" stroke-width="1"/>
-  <path d="M920 195h65v-80h100V65h95" fill="none" stroke="#67dbc4" stroke-width="3"/>
-  <g fill="#67dbc4"><circle cx="920" cy="195" r="6"/><circle cx="985" cy="115" r="6"/><circle cx="1085" cy="65" r="6"/></g>
-  <rect x="48" y="45" width="40" height="4" rx="2" fill="#67dbc4"/>
-  <g font-family="Segoe UI, Arial, sans-serif">
-    <text x="48" y="108" font-size="44" font-weight="700" fill="#f5f8fc">Edwin Medina</text>
-    <text x="48" y="151" font-size="25" fill="#c8d6e6">Full Stack / Backend Developer</text>
-    <text x="48" y="195" font-size="19" fill="#9aadc4">Engenharia de software, integração de sistemas e automação.</text>
-    <text x="48" y="239" font-size="17" font-weight="600" fill="#67dbc4">C# / .NET   ·   Python   ·   APIs REST   ·   SQL</text>
+  <title id="title">Edwin Medina</title>
+  <desc id="desc">Backend, Full Stack e ensino de tecnologia. Portfólio em edwinnrm.dev.br.</desc>
+  <rect width="1200" height="280" rx="18" fill="#0d1117"/>
+  <rect x="24" y="24" width="1152" height="232" rx="12" fill="#111b24" stroke="#2a3946"/>
+  <path d="M24 58h1152" stroke="#2a3946"/>
+  <circle cx="50" cy="41" r="5" fill="#f07178"/>
+  <circle cx="70" cy="41" r="5" fill="#f6c177"/>
+  <circle cx="90" cy="41" r="5" fill="#65c3a5"/>
+  <g font-family="Consolas, Courier New, monospace">
+    <text x="52" y="100" font-size="20" fill="#65c3a5">$ whoami</text>
+    <text x="52" y="162" font-size="56" font-weight="700" fill="#f3f6f8">Edwin Medina</text>
+    <text x="54" y="206" font-size="24" fill="#b7c5cf">backend · full stack · ensino de tecnologia</text>
+    <text x="54" y="237" font-size="18" fill="#65c3a5">edwinnrm.dev.br ↗</text>
+  </g>
+  <g fill="#65c3a5" opacity=".9">
+    <rect x="1032" y="104" width="18" height="18"/>
+    <rect x="1056" y="128" width="18" height="18"/>
+    <rect x="1080" y="152" width="18" height="18"/>
+    <rect x="1056" y="176" width="18" height="18"/>
+    <rect x="1032" y="200" width="18" height="18"/>
+    <rect x="1110" y="200" width="20" height="4"/>
   </g>
 </svg>
